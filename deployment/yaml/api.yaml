@@ -13,7 +13,7 @@ spec:
         app: api
     spec:
       containers:
-      - image: nginx
+      - image: laravel
         imagePullPolicy: Never
         name: api
         ports:
